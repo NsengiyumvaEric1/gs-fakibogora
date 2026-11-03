@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  html,
+  body {
+    scroll-behavior: smooth;
+    color-scheme: light;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  li {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  
+  ::selection {
+    background-color: #1d4ed8;
+    color: #ffffff;
+  }
+}
+
+@keyframes slideProgressBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInUpSmooth {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideProgress {
+  animation: slideProgressBar 6s linear infinite;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUpSmooth 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

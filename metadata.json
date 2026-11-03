@@ -1,0 +1,6 @@
+{
+  "name": "GS FAKIBOGORA - Official School Portal & Management System",
+  "description": "Official website and administration system for Groupe Scolaire Frank Adamson de Kibogora (GS FAKIBOGORA / GSFAK), established 1969 in Nyamasheke, Western Province, Rwanda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
